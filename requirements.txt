@@ -1,0 +1,4 @@
+torch
+numpy
+pyarrow
+# Add gradio or streamlit here, depending on what geometry_studio.py uses
