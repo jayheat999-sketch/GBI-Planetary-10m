@@ -1,5 +1,6 @@
 # GBI-Planetary-10m
 Planetary Attention is an intrinsically interpretable attention mechanism. Each head reads the same queries, keys, and values through several parallel rotated views — one pinned reference and a set of movers, each applying an exact rotation 
 Rk=exp⁡(Gk)∈SO(d)R_k = \exp(G_k) \in SO(d) built from a fully-learnable skew-symmetric generator. Because every probe is a provably norm-preserving rotation and every step of the forward pass has a closed form, the model is mechanistically transparent: the quantities that explain its routing — per-probe rotation angles, inter-probe geometry, and gate activations — are the model's own parameters, read directly rather than recovered after the fact. The geometric structure is never imposed on the forward pass; it is only ever measured, making any structure that appears an emergent property of training rather than a hardcoded inductive bias.
+
 https://huggingface.co/spaces/klyfff/GBI-Planetary-10m
 Live working demo
